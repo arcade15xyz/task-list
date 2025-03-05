@@ -1,6 +1,6 @@
-@extends('layouts.app');
+@extends('layouts.app')
 
-@section('title',    'The list of tasks!');
+@section('title',    'The list of tasks!')
 
 
 
