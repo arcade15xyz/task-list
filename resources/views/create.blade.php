@@ -3,7 +3,9 @@
 @section('title','Add Task')
 
 @section('content')
+    @if($errors->any())
     {{ $errors }}
+    @endif
     <form method="POST" action="{{ route('tasks.store') }}">
         @csrf
         <div>
